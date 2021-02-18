@@ -11,13 +11,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 function sum(a, b) { //eslint-disable-line
 let result=a+b;
-let statement=`The sum of ${a} and ${b} is ${result}`;
+let statement=`The sum of ${a} and ${b} is ${result}.`;
 return [result , statement];
 
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+ testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
